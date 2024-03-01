@@ -1,0 +1,17 @@
+.card {
+  padding: 24px;
+  border-radius: 15px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+
+  button {
+    font-size: 16px;
+  }
+}
+
+h4 {
+  color: #fd7e14;
+}

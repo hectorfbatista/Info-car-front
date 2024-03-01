@@ -1,0 +1,56 @@
+<h2 class="title" mat-dialog-title> Editar veículo</h2>
+<mat-dialog-content>
+  <form class="row" [formGroup]="form">
+    <mat-form-field class="form-field col-12" appearance="outline">
+      <mat-label>Marca</mat-label>
+      <input matInput formControlName="marca" type="text">
+      <mat-error>
+        <app-form-field-error [form-control]="form.get('marca')"></app-form-field-error>
+      </mat-error>
+    </mat-form-field>
+  
+    <mat-form-field class="form-field col-12" appearance="outline">
+      <mat-label>Modelo</mat-label>
+      <input matInput formControlName="modelo" type="text">
+      <mat-error>
+        <app-form-field-error [form-control]="form.get('modelo')"></app-form-field-error>
+      </mat-error>
+    </mat-form-field>
+  
+    <mat-form-field class="form-field col-12" appearance="outline">
+      <mat-label>Ano</mat-label>
+      <input matInput formControlName="ano" type="text">
+      <mat-error>
+        <app-form-field-error [form-control]="form.get('ano')"></app-form-field-error>
+      </mat-error>
+    </mat-form-field>
+  
+    <mat-form-field class="form-field col-12" appearance="outline">
+      <mat-label>Placa</mat-label>
+      <input matInput formControlName="placa" type="text">
+      <mat-error>
+        <app-form-field-error [form-control]="form.get('placa')"></app-form-field-error>
+      </mat-error>
+    </mat-form-field>
+  
+    <mat-form-field class="form-field col-12" appearance="outline">
+      <mat-label>Renavam</mat-label>
+      <input matInput formControlName="renavam" type="text">
+      <mat-error>
+        <app-form-field-error [form-control]="form.get('renavam')"></app-form-field-error>
+      </mat-error>
+    </mat-form-field>
+  
+    <mat-form-field class="form-field col-12" appearance="outline">
+      <mat-label>Chassi</mat-label>
+      <input matInput formControlName="chassi" type="text">
+      <mat-error>
+        <app-form-field-error [form-control]="form.get('chassi')"></app-form-field-error>
+      </mat-error>
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancelar</button>
+  <button mat-button [mat-dialog-close]="form.value" cdkFocusInitial>Salvar</button>
+</mat-dialog-actions>

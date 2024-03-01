@@ -1,0 +1,36 @@
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #292424;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+
+  .active {
+    color: #fd7e14;
+  }
+
+  .logo {
+    margin-right: 55px;
+
+    img {
+      margin: 0 16px;
+    }
+  }
+
+  .home, .list, .add-vehicle {
+    margin-bottom: 5px;
+  }
+
+  .home, .list {
+    margin-right: 35px;
+  }
+}
+
+
+

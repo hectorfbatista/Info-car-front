@@ -1,0 +1,13 @@
+<div class="container">
+  <h4 class="title">Últimos veículos</h4>
+  <div class="row">
+    <div class="col-xl-4 col-md-4 col-12 mb-3 d-flex justify-content-center" *ngFor="let element of vehicles ">
+      <app-card-vehicle
+        card-marca="{{element.marca}}"
+        card-modelo="{{element.modelo}}"
+        card-ano="{{element.ano}}"
+        card-placa="{{element.placa}}">
+      </app-card-vehicle>
+    </div>
+  </div>
+</div>

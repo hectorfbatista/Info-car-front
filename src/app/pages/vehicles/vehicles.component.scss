@@ -1,0 +1,29 @@
+.filter {
+  width: 100%;
+
+  ::ng-deep .mat-form-field-wrapper {
+    padding: 0;
+  }
+}
+
+table {
+  width: 100%;
+
+  .acoes {
+    display: flex;
+    justify-content: space-evenly;
+    
+    .button-delete, .button-edit {
+      display: flex;
+      justify-content: center;
+      width: 35px;
+      height: 35px;
+      align-items: center;
+    } 
+  } 
+}
+  
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
