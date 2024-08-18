@@ -1,6 +1,6 @@
 # Info Car
 
-Projeto criado para o estudo de HTML, CSS e Angular.
+Projeto criado para o estudo de HTML, CSS, Angular e integração com o Node.
 
 ## Iniciando o projeto
 
