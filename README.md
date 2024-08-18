@@ -1,6 +1,6 @@
 # Info Car
 
-Projeto criado para o desafio da empresa Info Tecnologia
+Projeto criado para o estudo de HTML, CSS e Angular.
 
 ## Iniciando o projeto
 
